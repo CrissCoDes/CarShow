@@ -1,11 +1,11 @@
 const car = {
     _Fuel: 'gasoline',
-    _Tires: '19 inch original BMW wheels',
+    _Tires: '19 inch original BMW',
     _Engine: 'inline-6',
     _Transmision: 'automatic',
     get info () {
         if (this._Fuel && this._Tires && this._Engine && this._Transmision){
-            return `this beautiful car runs on ${this.Fuel}, its got a nice set of ${this.Tires}, its got a magnificent ${this.Engine} engine, equipped with an ${this.Transmision} transmision `
+            return `this beautiful car runs on ${this.Fuel}, its got a nice set of ${this.Tires} Wheels , its got a magnificent ${this.Engine} engine, equipped with an ${this.Transmision} transmision `
         }
     },
     set transmision(num) {
